@@ -93,8 +93,8 @@ Some examples:
 If you have suites with different spec directories then ``phpspec run``
 will run the specs from each of the directories using the relevant suite settings.
 
-When you use ``phpspec desc`` **phpspec** creates the spec using the matching
-configuration.  E.g. ``phpspec desc Acme/Text/MyClass`` will use the the
+When you use ``phpspec desc``, **phpspec** creates the spec using the matching
+configuration.  E.g. ``phpspec desc Acme/Text/MyClass`` will use the
 namespace ``acme_spec\Acme\Text\MyClass``.
 
 If the namespace does not match one of the namespaces in the suites config then
