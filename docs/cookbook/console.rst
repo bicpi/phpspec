@@ -50,8 +50,8 @@ Will generate a specification ClassNameSpec in the spec directory.
 
     $ php bin/phpspec describe Namespace/ClassName
 
-Will generate a namespaced specification Namespace\ClassNameSpec.
-Note that / is used as the separator. To use \ it must be quoted:
+Will generate a namespaced specification Namespace\\ClassNameSpec.
+Note that / is used as the separator. To use \\, it must be quoted:
 
 .. code-block:: bash
 
